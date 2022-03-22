@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestApplication3</string>
+    <string name="welcome">Welcome to Mobile Device Programming
+    (I am a dynamic string variable)</string>
+    <string name="enterName">Please enter your full name: </string>
+    <string name="exitButton">PRESS TO EXIT</string>
+
+</resources>
