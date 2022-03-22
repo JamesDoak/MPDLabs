@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestApplication1</string>
+    <string name="welcome">Welcome to the Android Mobile World</string>
 </resources>
