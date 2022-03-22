@@ -25,13 +25,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
     @Override
     public void onCreate(Bundle savedInstanceState){
 
-        mainView = (View)findViewById(R.id.mainView);
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mainView = (View)findViewById(R.id.mainView);
+        mainView.setBackgroundColor(getResources().getColor(R.color.green,null));
+
 
         exitButton = (Button)findViewById(R.id.exitButton);
         exitButton.setOnClickListener(this);
+
     }
 
     @Override
